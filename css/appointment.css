@@ -1,0 +1,263 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+.appoint {
+    width: 35%;
+    margin: auto;
+    padding: 30px;
+    background-color: #DDD;
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    transform: translate(-50% , -50%);
+    min-height: 300px;
+
+    
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    
+}
+
+.appoint h1{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 40px;
+    color: #08526d;
+    
+}
+
+
+.appoint .text-box {
+    padding: 10px;
+    width: 90%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 30px;
+    
+}
+
+    
+.appoint .text-box input {
+    background: #FFF;
+    outline: none;
+    border: 1px solid #EEE;
+    color: #08526d;
+    font-size: 18px;
+    width: 80%;
+    margin-left: 10px;
+    
+}
+
+.appoint .text-box:last-of-type {
+    margin-bottom: 20px;
+}
+
+.appoint .book {
+    color: #FFF;
+    padding: 10px;
+    width: 190px;
+    border: 1px solid #FFF;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #ec1c23;
+    margin-left: 20%;
+
+}
+
+.appoint .book:hover {
+    cursor: pointer;
+}
+
+
+.appoint .cancel {
+    color: #FFF;
+    padding: 10px;
+    border: 1px solid #FFF;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #08526d;
+}
+
+.appoint .cancel:hover {
+    cursor: pointer;
+}
+
+
+@media (min-width: 576px) and (max-width: 766px) { /* Small devices (landscape phones, 576px and up) */
+    .appoint {
+        width: 100%;
+        position: absolute;
+        top: 55%;
+        left: 50%;  
+    }
+
+    
+    .appoint .text-box {
+        width: 100%;
+        margin-left: 1%;
+        margin-right: 1%;
+        font-size: 30px;
+        
+    }
+    .appoint .text-box i {
+        transform: scale(.7);
+    }
+
+    .appoint .book {
+        padding: 7px;
+    }
+
+    .appoint .cancel {
+        padding: 7px;
+    }
+}
+
+@media (max-width: 767px) { /* Mobile and Tablet size   Extra Small xs */
+    .appoint {
+        width: 50%;
+        position: absolute;
+        top: 55%;
+        left: 50%;  
+    }
+
+    
+    .appoint h1{
+        font-size: 25px;
+        margin-bottom: 20px;    
+    }
+
+    .appoint .text-box input {
+        
+        font-size: 15px;
+        margin-left: 0px;
+
+    }
+
+    
+    .appoint .book {
+        width: 100px;
+        border-radius: 5px;
+        margin-left: 22%;
+    }
+
+    .appoint .cancel {
+        width: 100px;
+        border-radius: 5px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){ /*Small Screen  sm */
+    
+    .appoint {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+    
+    .appoint h1 {
+        font-size: 25px;
+    }
+
+    .appoint .text-box {
+        width: 100%;
+        margin-left: 0;
+        
+    }
+
+    .appoint .text-box input {
+        
+        font-size: 15px;
+        margin-left: 0px;
+
+    }
+
+    .appoint .text-box i {
+        transform: scale(.8);
+    }
+    .appoint .text-box .fa-envelope-open {
+        transform: scale(.6);
+    }
+    
+    .appoint .book {
+        width: 90px;
+    }
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) { /* Medium size : md */
+    
+    .appoint {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+
+    .appoint h1 {
+        font-size: 30px;
+    }
+
+    .appoint .book {
+        width: 100px;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+    .appoint {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+}
+
+@media (max-width: 575px) { /* Extra small xs*/
+    .appoint .text-box {
+        width: 100%;
+        margin-left: 0;
+        font-size: 27px;
+    }
+    .appoint .text-box i {
+        transform: scale(.6);
+    }
+
+    .appoint .book {
+        width: 100px;
+        border-radius: 8px;
+        padding: 5px;
+        margin-left: 12%;
+        font-weight: unset;
+    }
+
+    .appoint .cancel {
+        width: 90px;
+        border-radius: 8px;
+        padding: 5px;
+        font-weight: unset;
+    }
+
+    .appoint .text-box input {
+        font-size: 15px;
+        margin-left: 0px;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
